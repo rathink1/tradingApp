@@ -1,15 +1,14 @@
+<h3>Trading Application</h3>
+
 Command design pattern is used so that each signal is encapsulated within its own command object, making it easier to understand, modify and extend codebase.
 
 Factory pattern is used to encapsulate the decision-making process of command object creation, on basis of received signal.
 
 To add new signals, add a new implementation of SignalCommand and update the SignalCommandFactory to handle the creation of that new command.
 
+<br>
 
-
-
-
-
-**Note** :
+**Note :**
 
 This solution can lead to explosion of SignalCommand implementation classes after sometime. 
 
