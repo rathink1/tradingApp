@@ -1,4 +1,4 @@
-package com.db.tradingApp;
+package com.db.tradingApp.service;
 
 /**
  * This is implemented in a third-party library and we cannot change it.  

@@ -1,4 +1,4 @@
-package com.db.tradingApp;
+package com.db.tradingApp.service.signalService;
 
 /**
  * This is a callback interface from our trading system, and we cannot change it.
